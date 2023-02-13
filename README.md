@@ -5,6 +5,8 @@ donation from the different users and generate a recipt upon succesfull donation
 donations . For any queries they can approach through the 
 contact us form . 
 
+This project is done for educational purpose only 
+
 # About
 
 ![image](https://user-images.githubusercontent.com/90785315/218451649-a089dfaf-851f-4fac-a5cd-cebcd902f69c.png)
