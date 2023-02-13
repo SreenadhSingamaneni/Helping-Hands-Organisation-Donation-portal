@@ -1,0 +1,171 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.btn{
+    border-radius: 15px;
+    background-color: black;    
+    }
+
+a{
+    color: white;
+    font-weight: 500;
+    text-decoration:none;
+}
+.btn:hover{
+    background-color: #f8f9fa;
+    text-decoration: none;
+    /* color: black; */
+    transition: 500ms;
+}
+.btn a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    
+}
+
+html.is-animating .transition-fade{
+    opacity: 0;
+}
+.header{
+    z-index: 10;
+}
+.navbar-brand{
+font-size: 1.25rem;
+font-weight: 500;
+
+}
+.nav-item{
+    font-weight: 500;
+    font-size: 1.25rem;
+    
+}
+.cool-link::after{
+content: "";
+display: block;
+width: 0;
+height: 2px;
+background: black;
+transition: width .3s;
+}
+.cool-link:hover::after{
+width: 100%;
+transition: width .3s;
+}
+
+.container-fluid{
+    background-color: #f8f9fa;
+}
+.red_bg{
+    background-image: url("https://image.freepik.com/free-vector/colorful-set-circle-round-frames_1017-14804.jpg");
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+.blue_bg{
+    background-image: url("https://image.freepik.com/free-vector/gradient-geometric-wallpaper_23-2148818330.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    margin-top: 8%;
+    background-color: #f8f9fa;
+}
+.carousel-control-prev,.carousel-control-next{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    top: calc(50% - 25px);
+    background-color: rgb(34, 33, 33);
+}
+.carousel-control-prev{
+    left: 5%;
+    
+}
+.carousel-control-next{
+    right: 5%;
+    
+}
+.carousel-indicators li{
+height: 20px;
+width: 20px;
+border-radius: 50%;
+}
+.carousel-item {
+    height: 757px;
+    transition: transform 1s ease, opacity .5s ease-out
+}
+
+.image{
+    margin-top: 6.5rem;
+    margin-left: 6.5rem;
+    width: 75%;
+    border-radius: 15px;
+}
+.col-md-6{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    padding: 3rem;
+    font-size: 1.2rem;
+}
+
+.col-md-6 p{
+    line-height: 35px;
+}
+.bottom{
+    border-bottom: 5px solid black;
+    width: 30%;
+    margin-left: 12.5rem; 
+}
+.bottom1{
+    border-bottom: 5px solid black;
+    width: 8%;
+    margin-left: 46%;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+form{
+    margin: auto;
+    width: 50%;
+}
+.btn-primary{
+    border-radius: 15px;
+    background-color: black;
+    height: 35px;
+    width: 75px;
+}
+.btn-primary a:hover{
+    color: black;
+    
+}
+.col-auto{
+    margin-top: 8%;
+    margin-left: 50%;
+}
+.frm{
+height: 35rem;
+}
+.frm h1{
+    text-align: center;
+    margin-top: 8%;
+}
+.des{
+    height: 100px;
+    
+}
+.details{
+    font-size:12px;
+    visibility: hidden;
+}
+
